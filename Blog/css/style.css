@@ -16,7 +16,7 @@ html,body{
 .container{
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 2%;
+    padding: 0 5%;
 }
 
 .clear{
@@ -33,11 +33,11 @@ html,body{
 
 /*HEADER*/
 header .container{
-    padding: 30px 20%;
+    padding: 20px 20%;
 }
 
 header .logo h2{
-    color: rgb(120, 120, 120);
+    color: rgb(0, 0, 0);
     cursor: pointer;
     font-size: 25px;
 }
@@ -135,7 +135,7 @@ section.box-captura .bar-top{
 }
 
 section.box-captura .wraper-captura{
-    padding: 2% 17%;
+    padding: 3% 15%;
     text-align: center;
 }
 
@@ -195,7 +195,6 @@ section.box-captura .box-single-captura button{
 
 section.box-captura .box-single-captura button:hover{
     transform: scale(1.09,1.09);
-    
 }
 
 section.box-captura .box-single-captura button i{
@@ -212,24 +211,29 @@ section.box-captura .box-single-captura p{
 
 /*CONTENT*/
 section.content{
-    padding: 0 12%;
-    height: 300px;
-    background-color: black;
+    padding: 0 9%;
+    height: 800px;
+    background-color: #22b6c7;
 }
 
 div.post{
     height: 100%;
-    background-color: grey;
-    width: 80%;
+    background-color: #ffffff;
+    width: 75.3%;
+    text-align: left;
+    color: black;
+    text-shadow: black;
 }
 
 div.sidebar{
     height: 100%;
-    background-color: lightgray;
-    width: 20%;
+    background-color: #ffffff;
+    width: 24.5%;
 }
 /*FOOTER*/
 footer{
-    height: 180px;
-    background-color: white;
+    height: 30px;
+    background-color: #02515f;
+    text-align: center;
+    color: white;
 }
